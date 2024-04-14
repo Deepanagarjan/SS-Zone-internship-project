@@ -1,0 +1,293 @@
+*{
+    width:100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Heebo-VariableFont_wght",sans-serif;
+
+
+}
+@font-face {
+    font-family: "Heebo-VariableFont_wght";
+    src: url(../Typography/Heebo/Heebo-VariableFont_wght.ttf);
+}
+
+.header{
+    background-color: #298659;
+    display: flex;
+    color: #EAF3EE;
+    padding: 14PX 0 0 14PX;
+    height: 40PX;
+    font-family:"Heebo-VariableFont_wght",sans-serif;
+}
+.header img{
+    width: 20px;
+    height: 20px;
+    margin-right: 110pt;
+}
+.header p{
+    margin-left: 940px;
+}
+.header h3{
+    margin-left: 60px;
+    width: 65px;
+    height: 29px;
+}
+.Billing{
+    width: auto;
+ border: none;
+ margin-left: 75px;
+ margin-right: 100pt;
+ 
+ 
+}
+
+.Billing h3{
+    color: rgb(68, 50, 50);
+    margin-bottom: 0;
+    height: 29px;
+    width: 120px;
+    font-weight:700;
+
+}
+.input{
+    border: solid 2.5px rgb(194, 240, 217) ;
+    display: flex;
+    margin-top: 20px;
+    border-radius: 9px;
+    height: 400px;
+}
+
+.left{
+    margin: 20px;
+    height: 40cap;
+    display: inline;
+    border: none;
+
+}
+.left input{
+    width: 110pt;
+    border-radius: 4px;
+    border: solid 2px  rgb(194, 240, 217);
+
+}
+#Brand_name{
+    margin-left: 70px;
+    width: 250px;
+    height: 20px;
+    margin-bottom: 10px;
+    padding: 6px;
+}
+#Add-Sublines{
+    margin-left: 95px;
+    width: 250px;
+    height: 50px;
+    margin-bottom: 30px;
+    padding: 6px;
+
+}
+#Date{
+    margin-left: 23px;
+    width: 250px;
+    height: 20px;
+    margin-bottom: 20px;
+    padding: 6px;
+}
+#contact_No{
+    margin-left: 72px;
+    width: 250px;
+    height: 20px;
+    margin-bottom: 20px;
+    padding: 6px;
+
+}
+#Address{
+    margin-left: 40px;
+    width: 250px;
+    height: 70px;
+    margin-bottom: 20px;
+    padding: 6px;
+}
+.right form{
+margin: 50px;
+position: relative;
+}
+.right{
+    position: relative;
+}
+form input{
+    display:none;
+    position: absolute;
+    left: 20px;
+    top: 40px;
+    cursor: pointer;
+
+}
+form input:hover{
+    cursor: pointer;
+}
+form img{
+    cursor: pointer;
+    padding: 28px 10px;
+    border-radius: 50%;
+    border:solid 2px  rgb(194, 240, 217);
+    shape-image-threshold: inherit;
+}
+#addicon{
+    position: absolute;
+    left: 48px;
+
+    top: 55px;
+    width: 20px;
+    height: 20px;
+    border: none;
+    border-radius: 0%;
+}
+.logocontent{
+    position: absolute;
+    width: fit-content;
+    top: 50pt;
+    left: 190px;
+    font-size:90%;
+    font-weight: 500;
+}
+.logocontent p{
+    color:  rgb(185, 185, 185);
+}
+.right input{
+    border-radius: 5px;
+    padding: 10px;
+    height: 15px;
+    border: solid 2px  rgb(194, 240, 217);
+    width: 200px;
+    margin: 20px;
+    margin-left: 30px;
+}
+.right label{
+    margin-left: 50px;
+}
+#additionalnote{
+    margin-left: 24px;
+}
+#additionalnote{
+    height: 60px;
+    padding: 10px;
+}
+.container {
+    width: 100%;
+
+}
+.container h2{
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+table {
+    width: 100%;
+    color: aliceblue;
+    border-collapse: collapse;
+    border-color: #298659;
+    border: none;
+    margin-top: 20px;
+    
+}
+
+th, td {
+    border: 1px solid #ddd;
+    background-color: #ddd;
+    padding: 8px;
+    text-align: center;
+    color:black;
+    margin: 40px;
+    margin-top: 20px;
+}
+.sr{
+    width: 200px;
+}
+th {
+    background-color:#298659;
+}
+
+#addButton{
+    margin-top: 10px;
+    margin-left: 500px;
+    width: fit-content;
+    align-items: center;
+    border-radius: 8px;
+    padding: 10px 20px;
+    background-color: #298659;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+/* Bill format styles */
+.bill {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Header styles */
+.header {
+    text-align: center;
+}
+
+/* Customer information styles */
+.customer-info {
+    margin-top: 20px;
+}
+
+/* Item details styles */
+.item-details {
+    margin-top: 20px;
+}
+
+/* Total amount styles */
+.total-amount {
+    margin-top: 20px;
+}
+
+/* Additional notes styles */
+.notes {
+    margin-top: 20px;
+}
+
+/* Print button styles */
+#print {
+    display: block;
+    margin: 0 auto;
+    margin-left: 1100px;
+    padding: 10px 20px;
+    background-color: #298659;
+    color: #fff;
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+}
+#printableBill{
+    background-color: #298659;
+    margin-left: 78px;
+    cursor: pointer;
+    padding: 4px;
+    width: 40px;
+    color: #fff;
+}
+ 
+
+/* Styles for printing */
+@media print {
+    button {
+        display: none; /* Hide print button when printing */
+    }
+}
+.span{
+margin-left: 75px;
+width: 84.5%;
+padding: 10px;
+background-color: #ccc;
+margin-right: 76px;
+color: black;
+
+}

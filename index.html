@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Billing Software</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="header">
+       <h3> GROOT</h3> <p>Report an issue</p><img src="./pictures/image1.png" alt="menu"> 
+    </div>
+    <div class="Billing">
+        <h1 style="text-align: center;color: #298659; margin-top: 30px;">Billing Information</h1><br>
+        <h3>Brand Detail</h3>The Details you enter below will be shown in billling form
+        <div class="input">
+            <div class="left">
+                Brand Name*<input type="text" id="Brand_name" placeholder="Meno Groceries" required><br>
+                Add-Sublines<br>(optional)<input type="text" id="Add-Sublines"required><br>
+                Date*(dd/mm/yyyy)<input type="date" id="Date"  placeholder="12/08/1995"required><br>
+                Contact No* <input type="tel" id="contact_No" placeholder="8870820844"required><br>
+                Address Details* <input type="text"id="Address" required placeholder="2/22, Ayya kovil street ,Mamakudi, tharangamnadi, mayiladuthurai-609301"> 
+            </div>
+            <div class="right">
+                <form action="">
+                    <img src="./pictures/image.png" alt="logo"style="height: 40px;width: 70px;">
+                    <img id="addicon" src="/images/Edit or add icon - logo.svg" alt="+">
+                    <input type="file">
+                </form>
+                <div class="logocontent">Upload Brand logo <p>support with SVG/PNG/JPG file <br> within 5 MB of size</p></div>
+                    <label for="GSTN">GSTN Number</label> <input type="number"placeholder="54036489" id="GSTN"><br>
+                    <label for="Additional">Additional Note</label> <input type="text" id="additionalnote" placeholder="Thank you for purchasig">
+
+            </div>
+    </div> 
+    <div class="container">
+        <h2>Items</h2>
+        <div id="module1">
+            <table>
+                <thead>
+                    <tr>
+                        <th class="sr">Sr No</th>
+                        <th>Item Name</th>
+                        <th>Item Code</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                        <th>Total</th>
+                        <th>Total(without taxes)</th>
+                        <th>Remove</th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody">
+                    <!-- Table body will be filled dynamically using JavaScript -->
+                </tbody>
+            </table>
+        
+            <button id="addButton">Add Item</button>
+        </div>
+        
+    </div>
+
+    <script src="script.js"></script>
+  
+    </div>
+    <!-- HTML -->
+    <span id="printableBill" onclick="generatePrintableBill()"> BILL</span> <br>
+    <button id="print" onclick="window.print()">Print BILL</button><br>
+
+
+</body>
+</html>
